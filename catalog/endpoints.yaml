@@ -12,5 +12,12 @@ endpoints:
   method: GET
   url: https://raw.githubusercontent.com/nuuuwan/lk_flood/data/lk_flood.json
   path: /lk_flood.json
-  summary: Flood station levels JSON used by Lankawa flood adapter.
-  access: json_api
+  summary: 'PARK — the entire upstream is gone: github.com/nuuuwan/lk_flood
+    returns 404 (repo deleted or renamed, confirmed via GitHub API), and the
+    nuuuwan.github.io Pages site also 404s. Searched nuuuwan''s current repos
+    and GitHub-wide for a flood-data successor; found nothing authoritative.
+    This whole repo has no working upstream right now — needs fresh research
+    for a replacement Sri Lanka flood-data source, not a URL fix. Checked
+    2026-09-14.'
+  status: parked
+  access: parked
