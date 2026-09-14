@@ -1,5 +1,5 @@
 {
-  "sha256": "5f322dfe8686e7370813d4ccfa1dd4ace851decb455c68817d39dee0882ef9cc",
+  "sha256": "45434a1a3e65b3443df01bcf732219833cf807af7bc7079eee343959974c622a",
   "endpoint_count": 1,
   "endpoints": {
     "flood_latest": {
@@ -7,11 +7,10 @@
       "method": "GET",
       "path": "/lk_flood.json",
       "url": "https://raw.githubusercontent.com/nuuuwan/lk_flood/data/lk_flood.json",
-      "status": "live",
-      "access": "json_api",
-      "summary": "Flood station levels JSON used by Lankawa flood adapter.",
+      "status": "parked",
+      "access": "parked",
+      "summary": "PARK \u2014 the entire upstream is gone: github.com/nuuuwan/lk_flood returns 404 (repo deleted or renamed, confirmed via GitHub API), and the nuuuwan.github.io Pages site also 404s. Searched nuuuwan's current repos and GitHub-wide for a flood-data successor; found nothing authoritative. This whole repo has no working upstream right now \u2014 needs fresh research for a replacement Sri Lanka flood-data source, not a URL fix. Checked 2026-09-14.",
       "pagination": null
     }
-  },
-  "updated": "2026-07-20"
+  }
 }
